@@ -2,12 +2,9 @@
 .titleImg {
     text-align: center;
 }
+
 header {
     color: #f59f01;
-
-    img{
-        width: 100%;
-    }
     
     .nav{
         --bs-nav-link-color:#f59f01;
@@ -16,4 +13,8 @@ header {
         text-align: left;
         width: 90%;
     }
+}
+.imgHeader {
+    max-width: 843px;
+    width: 100%;
 }
