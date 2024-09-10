@@ -1,9 +1,12 @@
 
+.titleImg {
+    text-align: center;
+}
 header {
     color: #f59f01;
 
-    .titleImg {
-        text-align: center;
+    img{
+        width: 100%;
     }
     
     .nav{
