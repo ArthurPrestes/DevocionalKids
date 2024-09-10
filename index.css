@@ -1,0 +1,16 @@
+
+header {
+    color: #f59f01;
+
+    .titleImg {
+        text-align: center;
+    }
+    
+    .nav{
+        --bs-nav-link-color:#f59f01;
+    }
+    .linhaHeader {
+        text-align: left;
+        width: 90%;
+    }
+}
