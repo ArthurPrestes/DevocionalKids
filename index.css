@@ -9,12 +9,25 @@ header {
     .nav{
         --bs-nav-link-color:#f59f01;
     }
-    .linhaHeader {
-        text-align: left;
-        width: 90%;
-    }
+   
 }
 .imgHeader {
     max-width: 843px;
     width: 100%;
+}
+
+.fotoPerfil {
+    width: 100%;
+    max-width: 287px;
+}
+.backBio {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #FDD0A7;
+}
+.linhaHeader {
+    text-align: left;
+    width: 90%;
+    border-bottom: 1.5px solid #fdd0a7;
 }
