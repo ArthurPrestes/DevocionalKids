@@ -19,15 +19,108 @@ header {
 .fotoPerfil {
     width: 100%;
     max-width: 287px;
+    margin-top: -20px;
 }
 .backBio {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #FDD0A7;
+}
+.text-bio{
+    text-align: left;
+    margin: 15px;
+}
+.text-consideracoes{
+    text-align: center;
+    margin: 15px;
 }
 .linhaHeader {
     text-align: left;
     width: 90%;
     border-bottom: 1.5px solid #fdd0a7;
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 900px !important;
+    }
+}
+.capa-livro{
+    max-width: 420px;
+    width: 100%;
+}
+.seta-botton, 
+.seta-top {
+    max-width: 246px;
+    width: 100%;
+}
+.seta-top{
+    margin-top: -100px;
+}
+.container-capa-livro{
+    margin-top: 20px;
+    display: flexbox;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Adicionando estilo á compra do livro */
+.miniLivro {
+    max-width: 255px;
+    width: 100%;
+}
+/*bottao */
+.btn-primary {
+--bs-btn-color: #fff !important;
+    --bs-btn-bg: #fdd0a7 !important;
+    --bs-btn-border-color: #e7c5a7 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fba75a !important;
+    --bs-btn-hover-border-color: #fdd0a7 !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fdd0a7 !important;
+    --bs-btn-active-border-color: #fdd0a7 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+
+
+
+/* Adicionando estilo ao footer */
+footer {
+    color: #FDD0A7;
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+}
+.text-light {
+    --bs-text-opacity: 1;
+    color: rgb(246 165 13) !important;
 }
